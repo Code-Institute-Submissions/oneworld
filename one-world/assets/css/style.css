@@ -13,18 +13,63 @@ a {
     text-decoration: none;
 }
 
-#animal-icon {
-    width: 100%;
-    height: auto;
-}
-.animal-icon {
-    width: 100%;
-    height: auto;
-}
+/*---------------------navbar---------------------*/
+
 .animal-container {
-    width: 100px;
-    height: 60px;
+    width: 50px;
+    height: 30px;
+    padding: 0;
     display: inline-block;
+}
+
+.animal {
+    filter: invert(20%); 
+    -webkit-filter:invert(20%);
+}
+
+#animal-icon-tiger {
+    width: 100%;
+    height: auto;
+}
+
+#animal-icon-elephant {
+    width: 85%;
+    height: auto;
+}
+
+#animal-icon-turtle {
+    width: 90%;
+    height: auto;
+    transform: rotate(180deg);
+}
+
+#animal-icon-leopard {
+    width: 95%;
+    height: auto;
+}
+
+#animal-icon-bear {
+    width: 90%;
+    height: auto; 
+}
+
+#animal-icon-rhino {
+    width: 100%;
+    height: auto;
+}
+
+#animal-icon-gorilla {
+    width: 80%;
+    height: auto;
+}
+
+.animal-container:hover {
+transform: scale(1.9);
+}
+
+.animal:hover {
+   filter: invert(80%); 
+   -webkit-filter:invert(80%); 
 }
 
 #nav {
@@ -32,11 +77,12 @@ a {
     text-align: center;
 }
 
-
 .menu-item {
     height: 120px;
     text-align: center;
     padding: 0;
+    margin-top: 20px;
+
 }
 
 .menu-item a {
@@ -46,20 +92,23 @@ a {
     height: 120px;
 }
 
-.menu-item a i {
-    padding-top: 22px;
+/*---------------Title---------------*/
+
+.title-container {
+    text-align: center;
+    height: 50px;
+}
+.main-title {
+    text-align: center;
+    width: 40%;
+    height: auto;
     display: block;
-    color: #fafafa;
-    font-size: 26px;
 }
 
-.menu-item span {
-    display: block;
+/*-------------strapline-------------*/
+
+.strap-line {
     width: 100%;
-    padding-top: 5px;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+    display: block;
 }
