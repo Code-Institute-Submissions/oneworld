@@ -92,6 +92,20 @@ transform: scale(1.9);
     height: 120px;
 }
 
+@media (max-width: 767px) {                  
+   .animal-bar {
+      display: none;
+   }
+}
+
+/*--------------Togger--------------*/
+
+@media (min-width: 767px) {                  
+   .toggler {
+      display: none;
+   }
+}
+
 /*---------------Title---------------*/
 
 .title-container {
