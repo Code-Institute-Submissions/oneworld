@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background: #0c0f13;
-    overflow: hidden;
     font-family: Sulphur Point,sans-serif;
     color: #8b8b8b;
     font-size: .9rem;
@@ -72,11 +71,6 @@ transform: scale(1.9);
    -webkit-filter:invert(80%); 
 }
 
-#nav {
-    margin: 0;
-    text-align: center;
-}
-
 .menu-item {
     height: 120px;
     text-align: center;
@@ -98,7 +92,21 @@ transform: scale(1.9);
    }
 }
 
-/*--------------Togger--------------*/
+/*--------------Toggler--------------*/
+
+.animal-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.ani-list {
+    color: #0c0f13;
+}
+
+.dropper {
+    background-color: #FF9A1B;
+}
 
 @media (min-width: 767px) {                  
    .toggler {
@@ -106,23 +114,104 @@ transform: scale(1.9);
    }
 }
 
-/*---------------Title---------------*/
+/*-------------Title-------------*/
 
 .title-container {
-    text-align: center;
-    height: 50px;
-}
-.main-title {
-    text-align: center;
-    width: 40%;
+    width: 100%;
     height: auto;
+    padding: 0;
+}
+
+@media (max-width: 767px) {                  
+   .main-title {
+    width: 70%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
     display: block;
+   }
+}
+
+@media (min-width: 767px) {                  
+   .main-title {
+    width: 50%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: block;
+   }
 }
 
 /*-------------strapline-------------*/
 
-.strap-line {
-    width: 100%;
+@media (min-width: 767px) {                  
+   .strap-line {
+    width: 50%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
+    color: #8b8b8b;
+    padding: 0;
+   }
+}
+
+@media (max-width: 767px) {                  
+   .strap-line {
+    width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #8b8b8b;
+    padding: 0;
+   }
+}
+
+.slogan {
+    font-size: 3.5vw;
+}
+
+/*-------------hero-image-------------*/
+
+.hero-image-container {
+    width: 100%;
+}
+
+.hero-image {
+    width: 70%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: block;
+}
+
+@media (min-width: 767px) {                  
+   .hero-image {
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: block;
+   }
+}
+
+@media (max-width: 767px) {                  
+   .hero-image {
+    width: 60%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: block;
+   }
 }
