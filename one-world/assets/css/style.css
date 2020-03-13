@@ -224,8 +224,14 @@ transform: scale(1.9);
     margin-left: 10px;
 }
 
+.about-head-container {
+    background-color: #7AA9ED;
+    margin-bottom: 1vw;
+}
+
 .about-head {
     font-size: 5vw;
+    color: #0c0f13;
 }
 
 .about-img-container {
@@ -239,6 +245,7 @@ transform: scale(1.9);
 
 .about-p-container {
     display: inline-block;
+    background-color: #7AA9ED;
 }
 
 .small-intro {
@@ -288,9 +295,11 @@ transform: scale(1.9);
    .about-p-container p {
     text-align: left;
     padding-right: 1vw;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
     width: 100%;
     height: 100%;
-    color: #FF9A1B;
+    color: #0c0f13;
     font-size: 1.8vw;
    }
 }
@@ -326,7 +335,7 @@ transform: scale(1.9);
     overflow-y: scroll;
 }
  .down-arrow {
-     color: #FF9A1B;
+     color: #7AA9ED;
      text-align: center;
      font-size: 30px;
  }
@@ -345,13 +354,35 @@ transform: scale(1.9);
     margin-left: 10px;
 }
 
+.tiger-titles-container {
+    width: 100%;
+    text-align: right;
+    float: right;
+}
+
+.tiger-head-container {
+    background-color: #FF9A1B;
+    height: 12vh;
+    width: 30vw;
+    display: block;
+}
+
 .tiger-head {
     font-size: 5vw;
+    color: #0c0f13;
+    margin-left: 1vw;
+}
+
+.tiger-sub-head {
+    font-size: 2.5vw;
+    margin-left: 3vw;
+    margin-top: 0.5vw;
+    color: #FF9A1B;
+    font-style: italic;
 }
 
 .tiger-img-container {
     display: inline;
-    width: 100%;
 }
 
 .tiger-img {
@@ -362,7 +393,7 @@ transform: scale(1.9);
 .tiger-p-container {
     display: inline-block;
     font-size: 1.8vw;
-    padding-left: 2vw;
+    margin-left: 2vw;
 }
 
 .small-tiger {
@@ -421,26 +452,54 @@ transform: scale(1.9);
 }
 
 @media (min-width: 900px) {                  
+   .tiger-p-container {
+    text-align: left;
+    margin: 0 4vw 0;
+    width: 95%;
+    height: 100%;
+    background-color: #FF9A1B;
+    color: #0c0f13;
+    font-size: 1.9vw 1.9vh;
+   }
+}                
+
+@media (min-width: 900px) {                  
    .tiger-p-container p {
     text-align: left;
-    padding-right: 1vw;
-    width: 100%;
+    margin-left: 1vw;
+    width: 90%;
     height: 100%;
-    color: #FF9A1B;
+    color: #0c0f13;;
     font-size: 1.9vw 1.9vh;
    }
 }                
 .tiger-p-container h4 {
-    color: #FF9A1B;
+    color: #0c0f13;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 0;
    }
 
 .tiger-p-container ul {
-    color: #FF9A1B;
+    color: #0c0f13;
+    margin-left: 1vw;
+    margin-top: 0;
    }
 
 .tiger-p-container a {
     color: #FFf;
    }
+
+.animal-down-arrow {
+     color: #FF9A1B;
+     text-align: center;
+     font-size: 30px;
+ }
+ .animal-scroll-arrow {
+     width: 100%;
+     text-align: center;
+     padding-left: 4vw;
+ }
 
 @media (max-width: 900px) {                  
    .tiger-p {
