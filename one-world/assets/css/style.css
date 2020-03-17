@@ -221,17 +221,18 @@ transform: scale(1.9);
 
 .about {
     margin-top: 100px;
-    margin-left: 10px;
 }
 
 .about-head-container {
     background-color: #7AA9ED;
-    margin-bottom: 1vw;
+    margin-bottom: 3vh;
+    width: 100%;
 }
 
 .about-head {
     font-size: 5vw;
     color: #0c0f13;
+    margin-left: 2vw;
 }
 
 .about-img-container {
@@ -347,35 +348,32 @@ transform: scale(1.9);
 
 
 
- /*-------------tiger-------------*/
+ /*-------------Right-animals-------------*/
 
-.tiger-page {
+.right-animal-page {
     margin-top: 100px;
-    margin-left: 10px;
 }
 
-.tiger-titles-container {
+.right-animal-titles-container {
     width: 100%;
     text-align: right;
     float: right;
 }
 
-.tiger-head-container {
+.right-animal-head-container {
     background-color: #FF9A1B;
     height: 12vh;
-    width: 30vw;
-    display: block;
 }
 
-.tiger-head {
+.right-animal-head {
     font-size: 5vw;
     color: #0c0f13;
-    margin-left: 1vw;
+    margin-right: 3.3vw;
 }
 
-.tiger-sub-head {
+.right-animal-sub-head {
     font-size: 2.5vw;
-    margin-left: 3vw;
+    margin-right: 3.3vw;
     margin-top: 0.5vw;
     color: #FF9A1B;
     font-style: italic;
@@ -390,73 +388,57 @@ transform: scale(1.9);
     padding-right: 2vw;
 }
 
-.tiger-p-container {
+.right-animal-p-container {
     display: inline-block;
     font-size: 1.8vw;
     margin-left: 2vw;
 }
 
-.small-tiger {
+.small-right-animal {
     background-color: #0c0f13;
 }
 
-.small-tiger-img-container {
+.tiger-animal-img-container {
     width: 100%;
     padding: 0;
     margin: 0;
 }
 
-.small-tiger-img {
+.tiger-animal-img {
     width: 100%;
     padding: 0;
 }
 
-.small-tiger-head-container {
+.small-right-animal-head-container {
     width: 100%;
     padding-top: 5px;
 }
 
-.tiger-small-head {
+.right-animal-small-head {
     font-size: 15vw;
     text-align: center;
     color: #FF9A1B;
 }
 
-.small-tiger-sub-head {
+.small-right-animal-sub-head {
     font-size: 7vw;
     font-style: italic;
     text-align: center;
     color: #FF9A1B;
 }
 
-.small-tiger-p-container p {
+.small-right-animal-p-container p {
     text-align: center;
     font-size: 5vw;
     margin: 0 5vw 0;
     color: #FF9A1B;
 }
 
-.tiger-read-more-btn-container {
-    width: 100%;
-    text-align: center;
-    font-size: 5vw;
-    padding: 25px 0 50px;
-}
-
-.tiger-read-more-btn {
-    text-align: center;
-    color: #0c0f13;
-    background-color: #FF9A1B;
-    font-weight: bold;
-    border: none;
-}
-
 @media (min-width: 900px) {                  
-   .tiger-p-container {
+   .right-animal-p-container {
     text-align: left;
     margin: 0 4vw 0;
     width: 95%;
-    height: 100%;
     background-color: #FF9A1B;
     color: #0c0f13;
     font-size: 1.9vw 1.9vh;
@@ -464,29 +446,35 @@ transform: scale(1.9);
 }                
 
 @media (min-width: 900px) {                  
-   .tiger-p-container p {
+   .right-animal-p-container p {
     text-align: left;
     margin-left: 1vw;
     width: 90%;
-    height: 100%;
     color: #0c0f13;;
     font-size: 1.9vw 1.9vh;
    }
-}                
-.tiger-p-container h4 {
+}  
+
+@media (max-width: 900px) {                  
+   .right-animal-titles-container {
+    display: none;
+   }
+}    
+
+.right-animal-p-container h4 {
     color: #0c0f13;
     margin-left: 1vw;
     margin-top: 1vw;
     margin-bottom: 0;
    }
 
-.tiger-p-container ul {
+.right-animal-p-container ul {
     color: #0c0f13;
     margin-left: 1vw;
     margin-top: 0;
    }
 
-.tiger-p-container a {
+.right-animal-p-container a {
     color: #FFf;
    }
 
@@ -502,31 +490,31 @@ transform: scale(1.9);
  }
 
 @media (max-width: 900px) {                  
-   .tiger-p {
+   .right-animal-p {
     display: none;
    }
 }
 
 @media (max-width: 900px) {                  
-   .tiger-img-container {
+   .tiger-img {
     display: none;
    }
 }
 
 @media (max-width: 900px) {                  
-   .tiger-head {
+   .right-animal-head {
     display: none;
    }
 }
 
 @media (max-width: 900px) {                  
-   .tiger-sub-head {
+   .right-animal-sub-head {
     display: none;
    }
 }
 
 @media (min-width: 900px) {                  
-   .small-tiger {
+   .small-right-animal {
     display: none;
    }
 }
@@ -547,3 +535,210 @@ transform: scale(1.9);
      text-align: center;
      padding-right: 1vw;
  }
+
+ .tiger-read-more-btn-container {
+    width: 100%;
+    text-align: center;
+    font-size: 5vw;
+    padding: 25px 0 50px;
+}
+
+.tiger-read-more-btn {
+    text-align: center;
+    color: #0c0f13;
+    background-color: #FF9A1B;
+    font-weight: bold;
+    border: none;
+}
+
+ /*-------------Left-animals-------------*/
+
+.left-animal-page {
+    margin-top: 100px;
+}
+
+.left-animal-titles-container {
+    width: 100%;
+    text-align: left;
+    float: left;
+}
+
+.left-animal-head-container {
+    background-color: #FF9A1B;
+    height: 12vh;
+}
+
+.left-animal-head {
+    font-size: 5vw;
+    color: #0c0f13;
+    margin-left: 3.3vw;
+}
+
+.left-animal-sub-head {
+    font-size: 2.5vw;
+    margin-left: 3.3vw;
+    margin-top: 0.5vw;
+    color: #FF9A1B;
+    font-style: italic;
+}
+
+.tiger-img-container {
+    display: inline;
+}
+
+.tiger-img {
+    width: 100%;
+    padding-right: 2vw;
+}
+
+.left-animal-p-container {
+    display: inline-block;
+    font-size: 1.8vw;
+    margin-right: 2vw;
+}
+
+.small-left-animal {
+    background-color: #545454;
+}
+
+.small-left-animal-head-container {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.left-animal-small-head {
+    font-size: 15vw;
+    text-align: center;
+    color: #FFF;
+}
+
+.small-left-animal-sub-head {
+    font-size: 7vw;
+    font-style: italic;
+    text-align: center;
+    color: #FFF;
+}
+
+.small-left-animal-p-container p {
+    text-align: center;
+    font-size: 5vw;
+    margin: 0 5vw 0;
+    color: #FFF;
+}
+
+@media (min-width: 900px) {                  
+   .left-animal-p-container {
+    text-align: left;
+    width: 95%;
+    color: #FFF;
+    font-size: 1.9vw 1.9vh;
+   }
+}                
+
+@media (min-width: 900px) {                  
+   .left-animal-p-container p {
+    text-align: left;
+    margin-left: 1vw;
+    width: 90%;
+    color: #FFF;
+    font-size: 1.9vw 1.9vh;
+   }
+}  
+
+@media (max-width: 900px) {                  
+   .left-animal-titles-container {
+    display: none;
+   }
+}   
+
+
+.left-animal-p-container h4 {
+    color: #FFF;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 0;
+   }
+
+.left-animal-p-container ul {
+    color: #FFF;
+    margin-left: 1vw;
+    margin-top: 0;
+   }
+
+.left-animal-p-container a {
+    color: #FFF;
+   }
+
+@media (max-width: 900px) {                  
+   .left-animal-p {
+    display: none;
+   }
+}
+
+@media (max-width: 900px) {                  
+   .elephant-img-container {
+    display: none;
+   }
+}
+
+@media (max-width: 900px) {                  
+   .left-animal-head {
+    display: none;
+   }
+}
+
+@media (max-width: 900px) {                  
+   .left-animal-sub-head {
+    display: none;
+   }
+}
+
+@media (min-width: 900px) {                  
+   .small-left-animal {
+    display: none;
+   }
+}
+
+/*-----------------------Tiger----------------------------*/
+
+.small-tiger-img-container {
+    width: 100%;
+}
+
+.small-tiger-img {
+    width: 100%;
+}
+
+/*-----------------------Elephant----------------------------*/
+
+.elephant-img {
+    width: 100%;
+    padding-left: 2vw;
+}
+
+.small-elephant-img-container {
+    width: 100%;
+}
+
+.small-elephant-img {
+    width: 100%;
+}
+
+.left-animal-read-more-btn-container {
+    width: 100%;
+    text-align: center;
+    font-size: 5vw;
+    padding: 25px 0 50px;
+}
+
+.left-animal-read-more-btn {
+    text-align: center;
+    color: #0c0f13;
+    background-color: #FFF;
+    font-weight: bold;
+    border: none;
+}
+
+.ele-small-left-animal {
+    background-color: #0c0f13;
+}
