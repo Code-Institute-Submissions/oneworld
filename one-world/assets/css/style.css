@@ -105,7 +105,7 @@ transform: scale(1.9);
 }
 
 .dropper {
-    background-color: #FF9A1B;
+    background-color: #7AA9ED;
 }
 
 @media (min-width: 767px) {                  
@@ -564,13 +564,11 @@ transform: scale(1.9);
 }
 
 .left-animal-head-container {
-    background-color: #FF9A1B;
     height: 12vh;
 }
 
 .left-animal-head {
     font-size: 5vw;
-    color: #0c0f13;
     margin-left: 3.3vw;
 }
 
@@ -578,7 +576,6 @@ transform: scale(1.9);
     font-size: 2.5vw;
     margin-left: 3.3vw;
     margin-top: 0.5vw;
-    color: #FF9A1B;
     font-style: italic;
 }
 
@@ -616,7 +613,8 @@ transform: scale(1.9);
     font-size: 7vw;
     font-style: italic;
     text-align: center;
-    color: #FFF;
+    color: #0c0f13;
+    background-color: #929093;
 }
 
 .small-left-animal-p-container p {
@@ -630,7 +628,8 @@ transform: scale(1.9);
    .left-animal-p-container {
     text-align: left;
     width: 95%;
-    color: #FFF;
+    color: #0c0f13;
+    background-color: #929093;
     font-size: 1.9vw 1.9vh;
    }
 }                
@@ -640,7 +639,7 @@ transform: scale(1.9);
     text-align: left;
     margin-left: 1vw;
     width: 90%;
-    color: #FFF;
+    color: #0c0f13;
     font-size: 1.9vw 1.9vh;
    }
 }  
@@ -653,14 +652,14 @@ transform: scale(1.9);
 
 
 .left-animal-p-container h4 {
-    color: #FFF;
+    color: #0c0f13;
     margin-left: 1vw;
     margin-top: 1vw;
     margin-bottom: 0;
    }
 
 .left-animal-p-container ul {
-    color: #FFF;
+    color: #0c0f13;
     margin-left: 1vw;
     margin-top: 0;
    }
@@ -724,6 +723,11 @@ transform: scale(1.9);
     width: 100%;
 }
 
+.ele-head-c {
+    background-color: #929093;
+    color: #0c0f13;
+}
+
 .left-animal-read-more-btn-container {
     width: 100%;
     text-align: center;
@@ -734,7 +738,7 @@ transform: scale(1.9);
 .left-animal-read-more-btn {
     text-align: center;
     color: #0c0f13;
-    background-color: #FFF;
+    background-color: #929093;
     font-weight: bold;
     border: none;
 }
@@ -742,3 +746,20 @@ transform: scale(1.9);
 .ele-small-left-animal {
     background-color: #0c0f13;
 }
+
+@media (min-width: 900px) {                  
+   .ele-small-left-animal {
+    display: none;
+   }
+}
+
+.ele-down-arrow {
+     color: #929093;
+     text-align: center;
+     font-size: 30px;
+ }
+ .ele-scroll-arrow {
+     width: 100%;
+     text-align: center;
+     padding-right: 4vw;
+ }
