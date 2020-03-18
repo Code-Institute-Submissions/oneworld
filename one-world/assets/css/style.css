@@ -424,7 +424,8 @@ transform: scale(1.9);
     font-size: 7vw;
     font-style: italic;
     text-align: center;
-    color: #FF9A1B;
+    background-color: #FF9A1B;
+    color: #0c0f13;
 }
 
 .small-right-animal-p-container p {
@@ -728,6 +729,10 @@ transform: scale(1.9);
     color: #0c0f13;
 }
 
+#ele-sub-head {
+    color: #929093;
+}
+
 .left-animal-read-more-btn-container {
     width: 100%;
     text-align: center;
@@ -763,3 +768,76 @@ transform: scale(1.9);
      text-align: center;
      padding-right: 4vw;
  }
+
+/*-----------------------Turtle----------------------------*/
+
+#turtle-head-container {
+    background-color: #509B34;
+}
+
+#turtle-sub {
+    color: #509B34;
+}
+
+#turtle-p-container {
+    background-color: #509B34;
+}
+
+#turtle-arrow {
+    color: #509B34;
+}
+
+#turtle-small-head {
+    color: #509B34;
+}
+
+#turtle-small-sub {
+    background-color: #509B34;
+    color: #0c0f13;
+}
+
+#turtle-small-p {
+    color: #509B34;
+}
+
+.turtle-read-more-btn {
+    text-align: center;
+    color: #0c0f13;
+    background-color: #509B34;
+    font-weight: bold;
+    border: none;
+}
+
+/*-----------------------Leopard----------------------------*/
+
+.leo-head-c {
+    background-color: #EFCF14;
+    color: #0c0f13;
+}
+
+#leo-sub-head {
+    color: #EFCF14;
+}
+
+.leo-p-c {
+    background-color: #EFCF14;
+    color: #0c0f13;
+}
+
+#leo-arrow {
+    color: #EFCF14;
+}
+
+#leo-small-head {
+    color: #EFCF14;
+}
+
+#leo-small-sub {
+    background-color: #EFCF14;
+    color: #0c0f13;
+}
+
+.leo-read-more {
+    background-color: #EFCF14;
+    color: #0c0f13;
+}
