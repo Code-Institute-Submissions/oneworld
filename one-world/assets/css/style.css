@@ -841,3 +841,42 @@ transform: scale(1.9);
     background-color: #EFCF14;
     color: #0c0f13;
 }
+
+/*------------------------Polar-Bear----------------------------*/
+
+#bear-head-container {
+    background-color: #fff;
+}
+
+#bear-sub {
+    color: #fff;
+}
+
+#bear-p-container {
+    background-color: #fff;
+}
+
+#bear-arrow {
+    color: #fff;
+}
+
+#bear-small-head {
+    color: #fff;
+}
+
+#bear-small-sub {
+    background-color: #fff;
+    color: #0c0f13;
+}
+
+#bear-small-p {
+    color: #fff;
+}
+
+.bear-read-more-btn {
+    text-align: center;
+    color: #0c0f13;
+    background-color: #fff;
+    font-weight: bold;
+    border: none;
+}
