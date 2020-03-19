@@ -241,12 +241,14 @@ transform: scale(1.9);
 
 .about-img {
     width: 100%;
-    margin-left: 10px;
+    margin-left: 2vw;
 }
 
 .about-p-container {
     display: inline-block;
     background-color: #7AA9ED;
+    margin-right: 2vw;
+    margin-left: 1vw;
 }
 
 .small-intro {
@@ -877,6 +879,79 @@ transform: scale(1.9);
     text-align: center;
     color: #0c0f13;
     background-color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+/*-----------------------Rhino----------------------------*/
+
+.rhino-head-c {
+    background-color: #929093;
+    color: #0c0f13;
+}
+
+#rhino-sub-head {
+    color: #929093;
+}
+
+.rhino-p-c {
+    background-color: #929093;
+    color: #0c0f13;
+}
+
+#rhino-arrow {
+    color: #929093;
+}
+
+#rhino-small-head {
+    color: #929093;
+}
+
+#rhino-small-sub {
+    background-color: #929093;
+    color: #0c0f13;
+}
+
+.rhino-read-more {
+    background-color: #929093;
+    color: #0c0f13;
+}
+
+/*------------------------Gorilla-page----------------------------*/
+
+#gorilla-head-container {
+    background-color: #898989;
+}
+
+#gorilla-sub {
+    color: #898989;
+}
+
+#gorilla-p-container {
+    background-color: #898989;
+}
+
+#gorilla-arrow {
+    color: #898989;
+}
+
+#gorilla-small-head {
+    color: #898989;
+}
+
+#gorilla-small-sub {
+    background-color: #898989;
+    color: #0c0f13;
+}
+
+#gorilla-small-p {
+    color: #898989;
+}
+
+.gorilla-read-more-btn {
+    text-align: center;
+    color: #0c0f13;
+    background-color: #898989;
     font-weight: bold;
     border: none;
 }
