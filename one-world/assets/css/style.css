@@ -955,3 +955,79 @@ transform: scale(1.9);
     font-weight: bold;
     border: none;
 }
+
+/*------------------------Footer----------------------------*/
+
+.social-networks {
+  text-align: center;
+  padding-top: 3vh;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #777777;
+}
+
+/*------------------------Footer-small----------------------------*/
+
+.small-social-networks {
+  padding-top: 3vh;
+  text-align: center;
+}
+
+.small-social-networks li {
+  display: inline;
+}
+
+.small-social-networks i {
+  font-size: 220%;
+  padding: 7%;
+  color: #777777;
+}
+
+@media (min-width: 900px) {                  
+   .small-social-networks {
+    display: none;
+   }
+}
+
+@media (max-width: 900px) {                  
+   .social-networks {
+    display: none;
+   }
+}
+
+/*------------------------back-to-top----------------------------*/
+
+#myBtnb {
+  position: fixed; /* Fixed/sticky position */
+  background: none;
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #0c0f13; /* Set a background color */
+  color: #777777; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 0.3vw; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 4vw; /* Increase font size */
+}
+
+#myBtnb:hover {
+  background-color: #777777; 
+  color: #0c0f13;
+}
+
+@media (max-width: 900px) {                  
+   #myBtnb {
+    font-size: 8vw;
+   }
+}
