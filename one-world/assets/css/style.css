@@ -7,6 +7,11 @@ body {
     font-size: .9rem;
 }
 
+.more{
+    display: none;
+}
+
+
 a {
     color: #545454;
     text-decoration: none;
@@ -97,15 +102,22 @@ transform: scale(1.9);
 .animal-list {
     list-style-type: none;
     padding: 0;
-    font-size: 20px;
+    text-align: center;
 }
 
-.ani-list {
+.ani-list a {
     color: #0c0f13;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 .dropper {
     background-color: #7AA9ED;
+}
+
+.toggle-text {
+  display: none;
 }
 
 @media (min-width: 767px) {                  
@@ -348,7 +360,10 @@ transform: scale(1.9);
      padding-right: 1vw;
  }
 
-
+#intro-read-more-btn {
+    padding: 2vw;
+    color: #7AA9ED;
+}
 
  /*-------------Right-animals-------------*/
 
@@ -546,12 +561,13 @@ transform: scale(1.9);
     padding: 25px 0 50px;
 }
 
-.tiger-read-more-btn {
+#tiger-read-more-btn {
     text-align: center;
     color: #0c0f13;
     background-color: #FF9A1B;
     font-weight: bold;
     border: none;
+    padding: 2vw;
 }
 
  /*-------------Left-animals-------------*/
@@ -771,6 +787,11 @@ transform: scale(1.9);
      padding-right: 4vw;
  }
 
+ #ele-read-more-btn {
+     padding: 2vw;
+     color: #0c0f13;
+ }
+
 /*-----------------------Turtle----------------------------*/
 
 #turtle-head-container {
@@ -810,6 +831,15 @@ transform: scale(1.9);
     border: none;
 }
 
+#toggle-text-3 {
+    color: #509B34;
+}
+
+#turtle-read-more-btn {
+    color: #0c0f13;
+    padding: 2vw;
+}
+
 /*-----------------------Leopard----------------------------*/
 
 .leo-head-c {
@@ -842,6 +872,11 @@ transform: scale(1.9);
 .leo-read-more {
     background-color: #EFCF14;
     color: #0c0f13;
+}
+
+#leo-read-more-btn {
+    color: #0c0f13;
+    padding: 2vw;
 }
 
 /*------------------------Polar-Bear----------------------------*/
@@ -883,6 +918,15 @@ transform: scale(1.9);
     border: none;
 }
 
+#bear-read-more-btn {
+    color: #0c0f13;
+    padding: 2vw;
+}
+
+#toggle-text-5 {
+    color: #fff;
+}
+
 /*-----------------------Rhino----------------------------*/
 
 .rhino-head-c {
@@ -915,6 +959,11 @@ transform: scale(1.9);
 .rhino-read-more {
     background-color: #929093;
     color: #0c0f13;
+}
+
+#rhino-read-more-btn {
+    color: #0c0f13;
+    padding: 2vw;
 }
 
 /*------------------------Gorilla-page----------------------------*/
@@ -954,6 +1003,15 @@ transform: scale(1.9);
     background-color: #898989;
     font-weight: bold;
     border: none;
+}
+
+#gorilla-read-more-btn {
+    color: #0c0f13;
+    padding: 2vw;
+}
+
+#toggle-text-7 {
+    color: #898989;
 }
 
 /*------------------------Footer----------------------------*/
