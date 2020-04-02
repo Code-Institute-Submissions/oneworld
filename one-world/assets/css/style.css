@@ -131,7 +131,6 @@ transform: scale(1.9);
 .title-container {
     width: 100%;
     height: auto;
-    padding: 0;
 }
 
 @media (max-width: 767px) {                  
@@ -141,7 +140,7 @@ transform: scale(1.9);
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
+    padding-bottom: 2vh;
     display: block;
    }
 }
@@ -153,7 +152,7 @@ transform: scale(1.9);
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
+    padding-bottom: 2vh;
     display: block;
    }
 }
@@ -186,7 +185,7 @@ transform: scale(1.9);
 }
 
 .slogan {
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 /*-------------hero-image-------------*/
