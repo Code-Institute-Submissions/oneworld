@@ -261,9 +261,11 @@ transform: scale(1.9);
 }
 
 .about-head {
-    font-size: 5vw;
+    font-size: 9vh;
     color: #0c0f13;
-    margin-left: 2vw;
+    margin-left: 4vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .about-img-container {
@@ -402,9 +404,11 @@ transform: scale(1.9);
 }
 
 .right-animal-head {
-    font-size: 5vw;
+    font-size: 9vh;
     color: #0c0f13;
     margin-right: 3.3vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .right-animal-sub-head {
@@ -606,8 +610,10 @@ transform: scale(1.9);
 }
 
 .left-animal-head {
-    font-size: 5vw;
+    font-size: 9vh;
     margin-left: 3.3vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .left-animal-sub-head {
@@ -1055,6 +1061,7 @@ transform: scale(1.9);
 
 .small-social-networks {
   padding-top: 3vh;
+  padding-right: 8vw;
   text-align: center;
   
 }
