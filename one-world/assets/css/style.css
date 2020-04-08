@@ -12,6 +12,11 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+@media (min-width: 1300px) {                  
+   body {
+      margin: 0 8vw 0;
+   }
 }
 
 .more{
@@ -27,7 +32,7 @@ a {
 /*---------------------navbar---------------------*/
 .animal-bar {
     background-color: #0c0f13;
-    height: 10vh;
+    height: 13vh;
 }
 
 .animal-container {
