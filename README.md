@@ -4,7 +4,7 @@
 <hr>
 <h3>Demo</h3>
 <p>A live demo can be found here <a href="#" rel="nofollow" target="_blank">here</a>.</p>
-<a target="_blank" rel="noopener noreferrer" href="#"><img src="https://giphy.com/gifs/QzB1q3dQycEPFj1jqT/html5" alt="Desktop Demo" title="Desktop Demo" style="max-width:100%;"></a>Ï
+<a target="_blank" rel="noopener noreferrer" href="#"><img src="https://media.giphy.com/media/QzB1q3dQycEPFj1jqT/giphy.gif" alt="Desktop Demo" title="Desktop Demo" style="max-width:100%;"></a>Ï
 
 
 
