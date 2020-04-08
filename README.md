@@ -8,14 +8,17 @@
 <br>
 <h3>UX</h3>
 <hr>
-<h5>User Stories</h5>
-<p>As a user that would like to donate money to certain animals cause, I need to be able to eaily find that species and it's donation page.</p>
+<h4>User Stories</h4>
+<p>As a user that would like to donate money to a certain animals cause, I need to be able to eaily find that species and it's donation page.</p>
 <img src="one-world/assets/images/donate.png">
-<h5>Strategy</h5>
-<h5>Scope</h5>
-<h5>Structure</h5>
-<h5>Skeleton</h5>
-<h5>Surface</h5>
+<br>
+<p>As a user that wants to find out some infomation about a species but only has a mobile phone to research it, I need to be able to navigate the site easily to locate my animal as read through detailed infomation all on a small screen.</p>
+<img src="one-world/assets/images/phone-sc.png">
+<h4>Strategy</h4>
+<h4>Scope</h4>
+<h4>Structure</h4>
+<h4>Skeleton</h4>
+<h4>Surface</h4>
 <br>
 <h3>Technologies</h3>
 <hr>
@@ -30,7 +33,7 @@
 <br>
 <h3>Features</h3>
 <hr>
-<h5>Features Left to Implement</h5>
+<h4>Features Left to Implement</h4>
 <br>
 <h3>Testing</h3>
 <hr>
@@ -38,11 +41,11 @@
 <hr>
 <h3>Credits</h3>
 <hr>
-<h5>Content</h5>
+<h4>Content</h4>
 <br>
-<h5>Media</h5>
+<h4>Media</h4>
 <br>
-<h5>Acknowledgements</h5>
+<h4>Acknowledgements</h4>
 
 
 
