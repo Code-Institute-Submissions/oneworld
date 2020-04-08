@@ -27,7 +27,7 @@ a {
 /*---------------------navbar---------------------*/
 .animal-bar {
     background-color: #0c0f13;
-    height: 13vh;
+    height: 10vh;
 }
 
 .animal-container {
@@ -169,7 +169,7 @@ transform: scale(1.9);
    .main-title {
     width: 50%;
     height: auto;
-    margin-top: 100px;
+    margin-top: 20vh;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2vh;
