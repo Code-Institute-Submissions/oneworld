@@ -9,7 +9,8 @@
 <h3>UX</h3>
 <hr>
 <h5>User Stories</h5>
-<p>Using scrolling text boxes and read more buttons on smaller screens to create a less cluttered site but still be able to include in the infomation if desired by the user.</p>
+<p>As a user that would like to donate money to certain animals cause, I need to be able to eaily find that species and it's donation page.</p>
+<img src="one-world/assets/images/donate.png">
 <h5>Strategy</h5>
 <h5>Scope</h5>
 <h5>Structure</h5>
