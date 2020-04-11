@@ -27,7 +27,7 @@
 <p>I have used a suquential structure in my site to help the user navigate the site in a clear and simple way and help them access the imfomation they're looking for. I achieved this by creating a simple navbar and holding all infomation on one single page that they can either scroll through or jump straight to one part that they desire.</p>
 <br>
 <h4>Skeleton</h4>
-<p><a href="#">Navbar wireframe</a></p>
+<p><a href="https://github.com/lewejuice/oneworld/blob/master/navbar.md" target="_blank">Navbar wireframe</a></p>
 <p><a href="#">Hero Image wireframe</a></p>
 <p><a href="#">Introduction wireframe</a></p>
 <p><a href="#">Animal wireframe</a></p>
