@@ -28,10 +28,10 @@
 <br>
 <h4>Skeleton</h4>
 <p><a href="https://github.com/lewejuice/oneworld/blob/master/navbar.md" target="_blank">Navbar wireframe</a></p>
-<p><a href="#">Hero Image wireframe</a></p>
-<p><a href="#">Introduction wireframe</a></p>
-<p><a href="#">Animal wireframe</a></p>
-<p><a href="#">Left-Animal wireframe</a></p>
+<p><a href="https://github.com/lewejuice/oneworld/blob/master/title.md">Title wireframe</a></p>
+<p><a href="https://github.com/lewejuice/oneworld/blob/master/collage.md">Collage wireframe</a></p>
+<p><a href="https://github.com/lewejuice/oneworld/blob/master/intro.md">Introduction wireframe</a></p>
+<p><a href="https://github.com/lewejuice/oneworld/blob/master/animal.md">Animal wireframe</a></p>
 <p><a href="#">Social wireframe</a></p>
 <br>
 <h4>Surface</h4>
