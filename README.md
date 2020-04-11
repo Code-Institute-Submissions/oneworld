@@ -27,11 +27,12 @@
 <p>I have used a suquential structure in my site to help the user navigate the site in a clear and simple way and help them access the imfomation they're looking for. I achieved this by creating a simple navbar and holding all infomation on one single page that they can either scroll through or jump straight to one part that they desire.</p>
 <br>
 <h4>Skeleton</h4>
-<p><a href="#">About wireframe</a></p>
-<p><a href="#">Contact wireframe</a></p>
-<p><a href="#">Landing Page wireframe</a></p>
-<p><a href="#">Skills wireframe</a></p>
-<p><a href="#">Work wireframe</a></p>
+<p><a href="#">Navbar wireframe</a></p>
+<p><a href="#">Hero Image wireframe</a></p>
+<p><a href="#">Introduction wireframe</a></p>
+<p><a href="#">Animal wireframe</a></p>
+<p><a href="#">Left-Animal wireframe</a></p>
+<p><a href="#">Social wireframe</a></p>
 <br>
 <h4>Surface</h4>
 <br>
