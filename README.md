@@ -28,11 +28,11 @@
 <br>
 <h4>Skeleton</h4>
 <p><a href="https://github.com/lewejuice/oneworld/blob/master/navbar.md" target="_blank">Navbar wireframe</a></p>
-<p><a href="https://github.com/lewejuice/oneworld/blob/master/title.md">Title wireframe</a></p>
-<p><a href="https://github.com/lewejuice/oneworld/blob/master/collage.md">Collage wireframe</a></p>
-<p><a href="https://github.com/lewejuice/oneworld/blob/master/intro.md">Introduction wireframe</a></p>
-<p><a href="https://github.com/lewejuice/oneworld/blob/master/animal.md">Animal wireframe</a></p>
-<p><a href="https://github.com/lewejuice/oneworld/blob/master/social.md">Social wireframe</a></p>
+<p><a href="https://github.com/lewejuice/oneworld/blob/master/title.md" target="_blank">Title wireframe</a></p>
+<p><a href="https://github.com/lewejuice/oneworld/blob/master/collage.md" target="_blank">Collage wireframe</a></p>
+<p><a href="https://github.com/lewejuice/oneworld/blob/master/intro.md" target="_blank">Introduction wireframe</a></p>
+<p><a href="https://github.com/lewejuice/oneworld/blob/master/animal.md" target="_blank">Animal wireframe</a></p>
+<p><a href="https://github.com/lewejuice/oneworld/blob/master/social.md" target="_blank">Social wireframe</a></p>
 <br>
 <h4>Surface</h4>
 <br>
