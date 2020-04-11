@@ -32,7 +32,7 @@
 <p><a href="https://github.com/lewejuice/oneworld/blob/master/collage.md">Collage wireframe</a></p>
 <p><a href="https://github.com/lewejuice/oneworld/blob/master/intro.md">Introduction wireframe</a></p>
 <p><a href="https://github.com/lewejuice/oneworld/blob/master/animal.md">Animal wireframe</a></p>
-<p><a href="#">Social wireframe</a></p>
+<p><a href="https://github.com/lewejuice/oneworld/blob/master/social.md">Social wireframe</a></p>
 <br>
 <h4>Surface</h4>
 <br>
