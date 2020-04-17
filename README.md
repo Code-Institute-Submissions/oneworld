@@ -73,7 +73,7 @@ The site was also tested on different devices (iMac, Macbook, iPad, other tablet
 <p>The scrolling text boxes on larger screens I obtained the model from this <a href="https://www.nosegraze.com/scrolling-text-box/" rel="nofollow">tutorial</a>.</p>
 <p>The 'back to top' button code was obtained from this <a href="https://www.w3schools.com/howto/howto_js_scroll_to_top.asp" rel="nofollow">example</a>.</p>
 
-<p ****>This is for educational use</p>
+<p><strong>This is for educational use</strong></p>
 
 
 
