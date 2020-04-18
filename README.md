@@ -59,7 +59,8 @@
 The site was also tested on different devices (iMac, Macbook, iPad, other tablets, iPhone 4, 5, 7) and samsung galaxy to ensure compatibility and responsiveness. During the testing phase, I realized that my content filling the screen only worked well on smaller devices so I have used padding on the larger screens throughout the site to correct this issue. Also the back to top button being fixed in the bottom right of the screen worked well on larger screens but obscured content on mobile screens so I changed it to stay at the bottom of the page. I also found the navbar with a clear background caused the animal icons to get lost with content so to make them more clear and visable throughout, I gave it the same dark grey background as the rest of the page.</p>
 <h3>Deployment</h3>
 <hr>
-<p></p>
+<p>This site is hosted by GitHub pages, and has been deployed directly from the master branch. The site will update automatically when new commits have been made to the master branch. So the site deploys correctly on GitHub pages, the landing page must be named index.html.</p>
+<p>To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/lewejuice/oneworld.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.</p>
 <h3>Credits</h3>
 <hr>
 <h4>Content</h4>
