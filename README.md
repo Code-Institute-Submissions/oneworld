@@ -60,7 +60,7 @@ logo and slogan, then followed by an eye capturing hero image. Secondly providin
 <br>
 <p>Here our my methods of testing.</p>
 Devices        | Browsers        | Errors                                      | Fixed
--------------- | --------------- | ------------------------------------------- | -------------------------------------------------
+-------------- | :-------------: | ----------------------------------------: | ---------------------------------------------------:
 Imac           | Chrome          | Was too spread out over a large screen      | Used padding on the body for larger screens only
 iPad           | Mozzilla        | See through navbar background confused user | Changed to solid colour matching the body 
 Macbook        | Safari          | Icons blur when hovered over                | No 
