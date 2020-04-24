@@ -112,6 +112,11 @@ logo and slogan, then followed by an eye capturing hero image. Secondly providin
 <hr>
 <p>This site is hosted by GitHub pages, and has been deployed directly from the master branch. The site will update automatically when new commits have been made to the master branch. So the site deploys correctly on GitHub pages, the landing page must be named index.html.</p>
 <p>To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/lewejuice/oneworld.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.</p>
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
 <h3>Credits</h3>
 <hr>
 <h4>Content</h4>
