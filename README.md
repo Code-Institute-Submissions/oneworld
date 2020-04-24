@@ -55,8 +55,19 @@
 <br>
 <h3>Testing</h3>
 <hr>
-<p>The user stories successfully achieved the intended outcome by firstly drawing them in with an inspirational logo and slogan, then followed by an eye capturing hero image. Secondly providing them with useful infomation on what the organisation actually is and what they're trying to achieve. This is then followed by different sections on each of the animals which includes infomation about them, their current situation, what is causing their demise, what the organisation is doing to help and what the user can also do to help. This infomation is all displayed cleanly in expandable or scrolling text box, and each section can be easily located uses the interactive navbar, whhich is fixed to the top of the screen as you scroll down. At the botttom this is all then followed up with font awsome icons of the different social media links and then a 'back to top' button incase the user wants to quickly go back to the start of the page. All links provided will open in a new tab using 'target="_blank"' so the user wont loose the orignal site. They have also been manually tested to ensure that they are pointing to the correct destination.
-The site was also tested on different devices (iMac, Macbook, iPad, other tablets, iPhone 4, 5, 7) and samsung galaxy to ensure compatibility and responsiveness. During the testing phase, I realized that my content filling the screen only worked well on smaller devices so I have used padding on the larger screens throughout the site to correct this issue. Also the back to top button being fixed in the bottom right of the screen worked well on larger screens but obscured content on mobile screens so I changed it to stay at the bottom of the page. I also found the navbar with a clear background caused the animal icons to get lost with content so to make them more clear and visable throughout, I gave it the same dark grey background as the rest of the page.</p>
+<p>The user stories successfully achieved the intended outcome by firstly drawing them in with an inspirational 
+logo and slogan, then followed by an eye capturing hero image. Secondly providing them a clear easy to use navbar to find the infomation they desire. All links provided will open in a new tab using 'target="_blank"' so the user wont loose the orignal site.</p> 
+<br>
+<p>Here our my methods of testing.</p>
+Devices        | Browsers        | Errors                                      | Fixed
+-------------- | --------------- | ------------------------------------------- | -------------------------------------------------
+Imac           | Chrome          | Was too spread out over a large screen      | Used padding on the body for larger screens only
+iPad           | Mozzilla        | See through navbar background confused user | Changed to solid colour matching the body 
+Macbook        | Safari          | Icons blur when hovered over                | No 
+Lenovo tablet  | Explorer        | None                                        | N/A 
+iPhone 11 pro  | Safari          | Back to top button blocking content.        | Instead of being fixed, it now stays in place 
+Samsung galaxy | Samsung broswer | None                                        | N/A 
+<br>
 <h3>Deployment</h3>
 <hr>
 <p>This site is hosted by GitHub pages, and has been deployed directly from the master branch. The site will update automatically when new commits have been made to the master branch. So the site deploys correctly on GitHub pages, the landing page must be named index.html.</p>
