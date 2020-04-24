@@ -67,6 +67,227 @@ Macbook        | Safari          | Icons blur when hovered over                |
 Lenovo tablet  | Explorer        | None                                        | N/A 
 iPhone 11 pro  | Safari          | Back to top button blocking content.        | Instead of being fixed, it now stays in place 
 Samsung galaxy | Samsung broswer | None                                        | N/A 
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>global.imagePullSecrets</code></td>
+<td>Reference to one or more secrets to be used when pulling images</td>
+<td><code>[]</code></td>
+</tr>
+<tr>
+<td><code>image.repository</code></td>
+<td>Image repository</td>
+<td><code>quay.io/jetstack/cert-manager-controller</code></td>
+</tr>
+<tr>
+<td><code>image.tag</code></td>
+<td>Image tag</td>
+<td><code>v0.6.2</code></td>
+</tr>
+<tr>
+<td><code>image.pullPolicy</code></td>
+<td>Image pull policy</td>
+<td><code>IfNotPresent</code></td>
+</tr>
+<tr>
+<td><code>replicaCount</code></td>
+<td>Number of cert-manager replicas</td>
+<td><code>1</code></td>
+</tr>
+<tr>
+<td><code>clusterResourceNamespace</code></td>
+<td>Override the namespace used to store DNS provider credentials etc. for ClusterIssuer resources</td>
+<td>Same namespace as cert-manager pod</td>
+</tr>
+<tr>
+<td><code>leaderElection.Namespace</code></td>
+<td>Override the namespace used to store the ConfigMap for leader election</td>
+<td>Same namespace as cert-manager pod</td>
+</tr>
+<tr>
+<td><code>extraArgs</code></td>
+<td>Optional flags for cert-manager</td>
+<td><code>[]</code></td>
+</tr>
+<tr>
+<td><code>extraEnv</code></td>
+<td>Optional environment variables for cert-manager</td>
+<td><code>[]</code></td>
+</tr>
+<tr>
+<td><code>rbac.create</code></td>
+<td>If <code>true</code>, create and use RBAC resources</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>serviceAccount.create</code></td>
+<td>If <code>true</code>, create a new service account</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>serviceAccount.name</code></td>
+<td>Service account to be used. If not set and <code>serviceAccount.create</code> is <code>true</code>, a name is generated using the fullname template</td>
+<td></td>
+</tr>
+<tr>
+<td><code>resources</code></td>
+<td>CPU/memory resource requests/limits</td>
+<td></td>
+</tr>
+<tr>
+<td><code>securityContext.enabled</code></td>
+<td>Enable security context</td>
+<td><code>false</code></td>
+</tr>
+<tr>
+<td><code>securityContext.fsGroup</code></td>
+<td>Group ID for the container</td>
+<td><code>1001</code></td>
+</tr>
+<tr>
+<td><code>securityContext.runAsUser</code></td>
+<td>User ID for the container</td>
+<td><code>1001</code></td>
+</tr>
+<tr>
+<td><code>nodeSelector</code></td>
+<td>Node labels for pod assignment</td>
+<td><code>{}</code></td>
+</tr>
+<tr>
+<td><code>affinity</code></td>
+<td>Node affinity for pod assignment</td>
+<td><code>{}</code></td>
+</tr>
+<tr>
+<td><code>tolerations</code></td>
+<td>Node tolerations for pod assignment</td>
+<td><code>[]</code></td>
+</tr>
+<tr>
+<td><code>ingressShim.defaultIssuerName</code></td>
+<td>Optional default issuer to use for ingress resources</td>
+<td></td>
+</tr>
+<tr>
+<td><code>ingressShim.defaultIssuerKind</code></td>
+<td>Optional default issuer kind to use for ingress resources</td>
+<td></td>
+</tr>
+<tr>
+<td><code>ingressShim.defaultACMEChallengeType</code></td>
+<td>Optional default challenge type to use for ingresses using ACME issuers</td>
+<td></td>
+</tr>
+<tr>
+<td><code>ingressShim.defaultACMEDNS01ChallengeProvider</code></td>
+<td>Optional default DNS01 challenge provider to use for ingresses using ACME issuers with DNS01</td>
+<td></td>
+</tr>
+<tr>
+<td><code>podAnnotations</code></td>
+<td>Annotations to add to the cert-manager pod</td>
+<td><code>{}</code></td>
+</tr>
+<tr>
+<td><code>podDnsPolicy</code></td>
+<td>Optional cert-manager pod <a href="https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/#pods-dns-policy" rel="nofollow">DNS policy</a></td>
+<td></td>
+</tr>
+<tr>
+<td><code>podDnsConfig</code></td>
+<td>Optional cert-manager pod <a href="https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/#pods-dns-config" rel="nofollow">DNS configurations</a></td>
+<td></td>
+</tr>
+<tr>
+<td><code>podLabels</code></td>
+<td>Labels to add to the cert-manager pod</td>
+<td><code>{}</code></td>
+</tr>
+<tr>
+<td><code>priorityClassName</code></td>
+<td>Priority class name for cert-manager and webhook pods</td>
+<td><code>""</code></td>
+</tr>
+<tr>
+<td><code>http_proxy</code></td>
+<td>Value of the <code>HTTP_PROXY</code> environment variable in the cert-manager pod</td>
+<td></td>
+</tr>
+<tr>
+<td><code>https_proxy</code></td>
+<td>Value of the <code>HTTPS_PROXY</code> environment variable in the cert-manager pod</td>
+<td></td>
+</tr>
+<tr>
+<td><code>no_proxy</code></td>
+<td>Value of the <code>NO_PROXY</code> environment variable in the cert-manager pod</td>
+<td></td>
+</tr>
+<tr>
+<td><code>webhook.enabled</code></td>
+<td>Toggles whether the validating webhook component should be installed</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>webhook.replicaCount</code></td>
+<td>Number of cert-manager webhook replicas</td>
+<td><code>1</code></td>
+</tr>
+<tr>
+<td><code>webhook.podAnnotations</code></td>
+<td>Annotations to add to the webhook pods</td>
+<td><code>{}</code></td>
+</tr>
+<tr>
+<td><code>webhook.extraArgs</code></td>
+<td>Optional flags for cert-manager webhook component</td>
+<td><code>[]</code></td>
+</tr>
+<tr>
+<td><code>webhook.resources</code></td>
+<td>CPU/memory resource requests/limits for the webhook pods</td>
+<td></td>
+</tr>
+<tr>
+<td><code>webhook.image.repository</code></td>
+<td>Webhook image repository</td>
+<td><code>quay.io/jetstack/cert-manager-webhook</code></td>
+</tr>
+<tr>
+<td><code>webhook.image.tag</code></td>
+<td>Webhook image tag</td>
+<td><code>v0.6.2</code></td>
+</tr>
+<tr>
+<td><code>webhook.image.pullPolicy</code></td>
+<td>Webhook image pull policy</td>
+<td><code>IfNotPresent</code></td>
+</tr>
+<tr>
+<td><code>webhook.caSyncImage.repository</code></td>
+<td>CA sync image repository</td>
+<td><code>quay.io/munnerz/apiextensions-ca-helper</code></td>
+</tr>
+<tr>
+<td><code>webhook.caSyncImage.tag</code></td>
+<td>CA sync image tag</td>
+<td><code>v0.1.0</code></td>
+</tr>
+<tr>
+<td><code>webhook.caSyncImage.pullPolicy</code></td>
+<td>CA sync image pull policy</td>
+<td><code>IfNotPresent</code></td>
+</tr>
+</tbody>
+</table>
 <br>
 <h3>Deployment</h3>
 <hr>
