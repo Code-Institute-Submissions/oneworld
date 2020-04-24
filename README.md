@@ -49,7 +49,12 @@
 <br>
 <h3>Features</h3>
 <hr>
-<p>I have used animal icons in my navbar that grow larger and change colour when you hover over them using CSS. When the screen size shrinks I have the navbar collapses into a burger icon with a dropdown list of the animal names to make it more visable and clean on a smaller screen. The pargraphs are in scrolling text boxes on larger screens and have 'read more' buttons on smaller screens to neatly fit in large pargraphs of text. I have also added a 'back to top' button at the bottom of the page to help the user get back to top with ease, which also has inverted effect when hovered over. I have achived these fatures using CSS, Bootstrap, Java Script and jQuery.</p>
+<p>List of features:</p>
+<p>The header on larger screens is made up of animal icons to match each species</p>
+<p>The header on smaller screens is  a burger icon that expands into a list of the species names</p>
+<p>The body on larger screens is made up of images and scrolling text boxes</p>
+<p>The body on smaller screens is  made up of wider landscape images followed by expandable text boxes with the function of a "read more" button</p>
+<p>The footer is made up of social link icons and a "back to top" button</p>
 <h4>Features Left to Implement</h4>
 <p>In the future I would like to add more content to the animal paragraphs and also a cleaner scrolling effect.</p>
 <br>
@@ -122,7 +127,7 @@ logo and slogan, then followed by an eye capturing hero image. Secondly providin
 <p>Magority of the written content I obtained from <a href="https://www.worldwildlife.org/">WWF</a>, which I altered to suit my needs. I did this because I knew WWF would provide accurate infomation about the animals and the help that is needed.</p>
 <br>
 <h4>Media</h4>
-<p>My animal icons were obtained from <a href="#">here.</a> The logo design and hero image I designed my self on adobe illustrator. The images used were all from Google Images with the usage rights tool set too 'labelled for reuse'.</p>
+<p>My animal icons were obtained from <a href="https://www.clipart.email/download/2290105.html">here.</a> The logo design and hero image I designed my self on adobe illustrator. The images used were all from Google Images with the usage rights tool set too 'labelled for reuse'.</p>
 <br>
 <h4>Acknowledgements</h4>
 <p>The read more text boxes on each section are modeled after the following Stack Overflow <a href="https://stackoverflow.com/questions/53955285/how-to-make-multiple-read-more-buttons-in-same-page-using-one-jquery/53955444" rel="nofollow">example</a>.</p>
